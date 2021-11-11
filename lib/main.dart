@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
             child: ElevatedButton(
               child: Text('Hola'),
               onPressed: () async {
-                // This example uses the Google Books API to search for books about http.
                 // https://developers.google.com/books/docs/overview
                 var url = Uri.https(
                     'www.googleapis.com', '/books/v1/volumes', {'q': '{http}'});
